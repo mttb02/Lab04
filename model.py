@@ -39,7 +39,7 @@ class MultiDictionary:
             elif language == "spanish":
                 if self._spanish.dict.__contains__(word):
                     found = True
-            if (found):
+            if found:
                 richW.corretta = True
 
             parole.append(richW)
